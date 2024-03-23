@@ -1,0 +1,9 @@
+CC = gcc
+CFLAGS = -Wall -pedantic -Werror -Wextra -std=gnu89
+NAME = delete_dnodeint
+SRC = $(wildcard *.c)
+
+all: $(NAME)
+
+$(NAME): $(SRC)
+	  $(CC) $(CFLAGS) $(SRC) -o $(NAME)
