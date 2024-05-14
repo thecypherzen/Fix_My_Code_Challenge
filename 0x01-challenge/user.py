@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-""" 
+"""
 User class
 """
 
@@ -21,8 +21,8 @@ class User():
     def email(self):
         """ Documentation """
         return self.__email
-   
-    
+
+
 if __name__ == "__main__":
 
     u = User()
