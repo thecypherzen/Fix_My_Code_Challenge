@@ -1,10 +1,22 @@
 #!/usr/bin/python3
+"""A class that defines a square"""
+
 
 class square():
+    """ Defines a square
+
+    Class Attributes:
+        width(int): width of square
+    """
     width = 0
     # height = 0
 
     def __init__(self, *args, **kwargs):
+        """Initializes the square class
+
+        args(obj:tuple): list of arguments
+        kwargs(:obj:dict): dictionary of keyword arguments
+        """
         for key, value in kwargs.items():
             setattr(self, key, value)
 
@@ -13,9 +25,11 @@ class square():
         return self.width * self.width
 
     def PermiterOfMySquare(self):
+        """ Calculates peremiter of square """
         return (self.width * 4)
 
     def __str__(self):
+        """ Creates string representation of square """
         return "{}/{}".format(self.width, self.width)
 
 
