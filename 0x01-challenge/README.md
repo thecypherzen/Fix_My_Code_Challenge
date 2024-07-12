@@ -38,4 +38,4 @@ This project is NOT mandatory at all. It is 100% optional. Doing any part of thi
 Files on the project are task based and are as follows:
 | SN | File | Description |
 |----|------|-------------|
-| 1. |[0-Makefile](https://github.com/thecypherzen/alx-low_level_programming/ | |
+| 1. |[0-Makefile](https://github.com/thecypherzen/alx-low_level_programming/) | |
