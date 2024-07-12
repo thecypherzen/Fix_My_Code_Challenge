@@ -9,7 +9,7 @@ class square():
         width(int): width of square
     """
     width = 0
-    # height = 0
+    height = 0
 
     def __init__(self, *args, **kwargs):
         """Initializes the square class
@@ -17,8 +17,9 @@ class square():
         args(obj:tuple): list of arguments
         kwargs(:obj:dict): dictionary of keyword arguments
         """
-        for key, value in kwargs.items():
-            setattr(self, key, value)
+        if "width" in kwargs.keys():
+            setattr(self, "width", kwargs["width"])
+            setattr(self, "height", kwargs["width"])
 
     def area_of_my_square(self):
         """ Area of the square """
@@ -39,3 +40,4 @@ if __name__ == "__main__":
     print(s)
     print(s.area_of_my_square())
     print(s.PermiterOfMySquare())
+    print(s.width, s.height)
