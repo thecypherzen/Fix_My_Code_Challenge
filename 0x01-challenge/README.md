@@ -1,23 +1,31 @@
 # Overview #
 
-This directory contains everything about the **0x1C. C - Makefiles**, which introduces the concepts of makefiles.
+`Fix my code` is a new type of project, where we’ll jump into an existing code base and fix it! Sometimes you will know the language, sometime not.
 
-The project objectives are to understand:
-- what `make` command and *Makefiles* are.
-- when, why and how to use *Makefiles*.
-- what *Makefile* rules are, how to set and use them.
-- what *implicit* and *explicit* rules are.
-- what the most common/useful rules are and
-- what *Makefile* variables are, how to define and use them.
+Please download the repository [0x01-Fix_My_Code_Challenge](https://github.com/alx-tools/0x01-Fix_My_Code_Challenge) and use it as initial files for all solutions.
+
+## Don't recode everything, just fix it! ##
+
+This project is NOT mandatory at all. It is 100% optional. Doing any part of this project will add a project grade of over 100% to your average. Your score won’t get hurt if you don’t do it, but if your current average is greater than your score on this project, your average might go down. Have fun!
+
 
 ### Project Timeline Details ###
-- **Released:** Wed Mar. 20, 2024 - 6am.
-- **1st Deadline:** Thur Mar. 21, 2024 - 6am.
-- **Duration:** 24 hrs (1 day).
-- **Month** 3, **Week** 5, **Day** 4.
+- **Released:** Wed July 10, 2024 - 6am.
+- **1st Deadline:** Wed. July 24, 2024 - 6am.
+- **Duration:** 336hrs (14 days).
+- **Month** 7, **Week** 1, **Day** 3.
+
+## Requirements
+### General
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 14.04 LTS
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project is *mandatory*.
+
 
 ## Author ##
 - [William Inyam](https://github.com/thecypherzen/)
+
 
 ### Technologies ##
 - All C files written to be C-89 compatible and compiled with gcc 9.4.0.
